@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*             HEADER           */
+
+
+.navigace{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(244, 227, 206);
+    height: 70px;
+    width: 100vw;
+}
+
+.logo img{
+    width: 110px;
+    margin-left: 20px;
+}
+
+.account-settings{
+    width: 40%;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: width 2s;
+}
+
+.account-settings img{
+    width: 30px;
+}
+
+.account-settings img:hover{
+    width: 32px;
+}
+
+.search{
+    display: flex;
+}
+
+.search input{
+    outline: none;
+    width: 95%;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
