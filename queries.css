@@ -9,11 +9,22 @@
         margin-top: 5px;
     }
 
+    .paragraf p{
+        display: none;
+    }
+
+    .aside{
+        display: none;
+    }
+
 }
 
 
 @media screen and (max-width: 500px) and (min-width: 350px){
     .search input{
+        display: none;
+    }
+    button{
         display: none;
     }
 
@@ -23,7 +34,50 @@
         transition: width 2s;
     }
 
+    .paragraf p{
+        display: none;
+    }
+
+    .aside{
+        display: none;
+    }
+
 }
+
+@media screen and (max-width: 985px) and (min-width: 500px){
+
+    .paragraf p{
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 800px) and (min-width: 500px){
+
+    .aside{
+        width: 35%;
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) and (min-width: 800px){
+
+    .aside{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1000px){
+
+    .aside{
+        width: 25%;
+    }
+
+}
+
+
+
 
 
 @media screen and (min-width: 985px){
@@ -33,6 +87,7 @@
         transition: width 2s;
     }
 
+    
 }
 
 
