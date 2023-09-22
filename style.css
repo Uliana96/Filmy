@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #534e7b;
+   background: linear-gradient(rgb(37, 37, 37), #534e7b);
     height: 60px;
     width: 100vw;
     position: fixed;
@@ -46,6 +46,7 @@
 
 .account-settings img{
     width: 30px;
+
 }
 
 .account-settings img:hover{
@@ -95,7 +96,6 @@ button{
 }
 
 .type-item ul{
-    background-color: #4f4a73;
     border-radius: 15px;
     padding: 10px 5px;
     margin: 10px auto;
@@ -103,9 +103,13 @@ button{
 
 
 .type-item li{
-    font-size: 20px;
+    font-size: 18px;
     font-style: italic;
-    margin-left: 40px;
+    list-style-type: none;
+    margin-bottom: 5px;
+    background: linear-gradient(rgb(72, 72, 72), #383550);
+    text-align: center;
+    border-radius: 5px;
 }
 
 
@@ -165,12 +169,26 @@ button{
 
 .film-item img{
     width: 100%;
+    border-radius: 10px;
 }
 
 
+/*      FOOTER       */
 
 
+footer{
+    width: 100%;
+    background: linear-gradient(rgb(37, 37, 37), #534e7b);
+    height: 30px;
+}
 
+
+footer p{
+    color: rgb(255, 244, 226);
+    text-align: center;
+    padding: 5px 0;
+    padding-left: 270px;
+}
 
 
 
